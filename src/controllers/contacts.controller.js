@@ -1,5 +1,5 @@
 function createContact(req, res) {
-  return res.status(201).json({ contact: {}aaaaaaa);
+  return res.status(201).json({ contact: {} });
 }
 function getContactsByFilter(req, res) {
   const filters = [];
